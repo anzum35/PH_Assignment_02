@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+body{
+    background-color: black
+}
+
 .container{
-    width: 90%;
+    width: 80%;
     margin:auto;
     background-color: black;
     
@@ -163,14 +167,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    height: 371px;
+    margin-top: 20px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-   
-
     
 }
+
+
 .run-box-1{
+    margin-left: 50px;
     width: 443px;
     height: 290px;
 }
@@ -193,9 +199,13 @@
     letter-spacing: 0.3px;
     text-align: left;
 }
-
+.run-image-center{
+    border-radius: 20px;
+}
 .run-image{
     width: 366px;
     height: 312px;  
-    border-radius: 18px;
+    /* padding: 70px; */
+    margin-right: 49px;
+    border-radius: 28px;
 }
