@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+    width: 90%;
+    margin:auto;
+    background-color: black;
+    
+}
+
+/* Navbar Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-head{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    
+}
+
+.nav-options{
+    display: flex;
+    gap: 30px;
+    margin-right: 10px ;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+.primary{
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+
+/* Banner Section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-primary{
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    
+}
+.banner-info{
+    width: 599.05px;
+    height: 440px;
+}
+
+.banner-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-para{
+     
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.primary-txt{
+    font-style:italic;
+    
+}
+.habits-details{
+    text-align: center;
+}
+.habit-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.habit-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+.box-1{
+    width: 231px;
+    height: 274px;
+    
+}
+.image-center{
+    text-align: center;
+}
+
+.box-image{
+    border-radius: 50%;
+    
+    
+}
+
+.box-head{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align:center;
+}
+
+.box-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    text-align:center ;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-evenly;
+}
